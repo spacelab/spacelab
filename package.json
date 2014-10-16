@@ -18,8 +18,8 @@
   ],
   "author": "comspace GmbH & Co. KG",
   "contributors": [
-    { "name": "Axel Salder" },
-    { "name": "Daniel Blomeyer" },
+    "Axel Salder",
+    "Daniel Blomeyer"
   ],
   "license": "MIT",
   "devDependencies": {
