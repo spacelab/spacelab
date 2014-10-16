@@ -17,6 +17,10 @@
     "grunt"
   ],
   "author": "comspace GmbH & Co. KG",
+  "contributors": [
+    { "name": "Axel Salder" },
+    { "name": "Daniel Blomeyer" },
+  ],
   "license": "MIT",
   "devDependencies": {
     "grunt": "^0.4.5"
