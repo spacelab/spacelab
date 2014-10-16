@@ -2,7 +2,7 @@
   "name": "spacelab",
   "version": "0.1.0",
   "description": "here be a description",
-  "private" : true,
+  "private": true,
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,5 +17,8 @@
     "grunt"
   ],
   "author": "comspace GmbH & Co. KG",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  }
 }
