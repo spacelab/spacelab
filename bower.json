@@ -1,0 +1,25 @@
+{
+  "name": "spacelab",
+  "version": "0.1.0",
+  "homepage": "https://github.com/comspace-dev/spacelab",
+  "authors": [
+    "Axel Salder",
+    "Daniel Blomeyer"
+  ],
+  "description": "here be a description",
+  "keywords": [
+    "spacelab"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "spacelab-base.headings": "spacelab/base.headings"
+  }
+}
