@@ -21,6 +21,7 @@
   ],
   "dependencies": {
     "spacelab-base.headings": "spacelab/base.headings",
-    "normalize.css": "~3.0.2"
+    "normalize.css": "~3.0.2",
+    "spacelab-base.border-box": "spacelab/base.border-box"
   }
 }
