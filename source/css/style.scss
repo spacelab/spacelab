@@ -1,8 +1,11 @@
+// settings
+@import "settings/settings.imports";
+
 // functions
 @import "bower_components/spacelab-functions.rem/functions.rem";
 
 // mixins
-@import "bower_components/spacelab-mixins.breakpoint/mixins.breakpoint";
+/* @import "bower_components/spacelab-mixins.breakpoint/mixins.breakpoint"; */
 @import "bower_components/spacelab-mixins.font-size/mixins.font-size";
 
 // base
@@ -15,6 +18,5 @@
 // @import "bower_components/spacelab-objects.media/objects.media";
 // @import "bower_components/spacelab-objects.buttons/objects.buttons";
 
-// project specific
-@import "settings/settings.imports";
+// modules
 @import "modules/modules.imports";
