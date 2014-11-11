@@ -27,6 +27,7 @@
     "spacelab-base.media": "spacelab/base.media",
     "spacelab-mixins.breakpoint": "spacelab/mixins.breakpoint",
     "spacelab-objects.spacing": "spacelab/objects.spacing",
+    "spacelab-objects.media": "spacelab/objects.media",
     "spacelab-specials.print": "spacelab/specials.print"
   }
 }
