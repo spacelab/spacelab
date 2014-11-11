@@ -6,7 +6,7 @@
 @import "functions/functions.imports";
 
 // mixins
-// @import "bower_components/spacelab-mixins.breakpoint/mixins.breakpoint";
+@import "bower_components/spacelab-mixins.breakpoint/mixins.breakpoint";
 @import "bower_components/spacelab-mixins.font-size/mixins.font-size";
 @import "mixins/mixins.imports";
 
@@ -18,13 +18,13 @@
 @import "base/base.imports";
 
 // objects
-// @import "bower_components/spacelab-objects.media/objects.media";
-// @import "bower_components/spacelab-objects.buttons/objects.buttons";
+@import "bower_components/spacelab-objects.media/objects.media";
+@import "bower_components/spacelab-objects.buttons/objects.buttons";
 @import "objects/objects.imports";
 
 // modules
 @import "modules/modules.imports";
 
 // specials
-// @import "bower_components/spacelab-specials.print/specials.print";
+@import "bower_components/spacelab-specials.print/specials.print";
 @import "specials/specials.imports";
