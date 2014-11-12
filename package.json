@@ -1,0 +1,29 @@
+{
+  "name": "spacelab",
+  "version": "0.1.0",
+  "description": "here be a description",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/comspace-dev/spacelab/"
+  },
+  "keywords": [
+    "frontend",
+    "sass",
+    "grunt"
+  ],
+  "author": "comspace GmbH & Co. KG",
+  "contributors": [
+    "Axel Salder",
+    "Daniel Blomeyer"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-sass": "^0.8.1"
+  }
+}
