@@ -39,8 +39,6 @@ linters:
       - rsVideoFrameHolder
       - rsWithThumbsHor
       - rsWithThumbsVer
-      - zoomLens
-      - zoomWindowContainer
 
 
   ColorKeyword:
