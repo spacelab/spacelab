@@ -44,6 +44,6 @@
     "spacelab-objects.media": "spacelab/objects.media",
     "spacelab-objects.spacing": "spacelab/objects.spacing",
 
-    "spacelab-specials.print": "spacelab/specials.print",
+    "spacelab-specials.print": "spacelab/specials.print"
   }
 }
