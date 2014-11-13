@@ -22,6 +22,8 @@
   "dependencies": {
     "normalize.css": "~3.0.2",
 
+    "spacelab-settings.defaults": "spacelab/settings.defaults",
+
     "spacelab-functions.rem": "spacelab/functions.rem",
 
     "spacelab-mixins.breakpoint": "spacelab/mixins.breakpoint",
