@@ -7,7 +7,7 @@ module.exports = function(grunt) {
         {
           expand: true,
           cwd: 'patternlab',
-          src: ['config/*', 'source/*', 'public/*']
+          src: ['config/config.ini', 'source/*', 'public/*']
         }
       ],
     },
