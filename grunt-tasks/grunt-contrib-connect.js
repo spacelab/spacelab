@@ -5,7 +5,7 @@ module.exports = function(grunt) {
     server: {
       options: {
         port: 3000,
-        base: './patternlab/public',
+        base: 'build',
         hostname: 'localhost',
         open: true
       }

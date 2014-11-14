@@ -2,7 +2,7 @@ module.exports = function(grunt) {
   'use strict';
 
   grunt.config('copy', {
-    patternlab: {
+    'patternlab-source': {
       files: [
           {
             src: 'patternlab-config.ini',
@@ -15,6 +15,22 @@ module.exports = function(grunt) {
             dest: 'patternlab/source'
           }
         ]
+    },
+    'patternlab-public': {
+      files: [
+        {
+          expand: true,
+          cwd: 'patternlab/public',
+          src: ['index.html', 'data/**/*.*', 'patterns/**/*.*',],
+          dest: 'build'
+        },
+        {
+          expand: true,
+          cwd: 'patternlab/core',
+          src: ['styleguide/**/*.*'],
+          dest: 'build'
+        }
+      ]
     }
   });
 
