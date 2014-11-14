@@ -13,7 +13,7 @@ module.exports = function(grunt) {
         spawn: false,
         livereload: true
       }
-    },
+    }
   });
 
   grunt.loadNpmTasks('grunt-contrib-watch');
