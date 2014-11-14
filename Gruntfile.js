@@ -10,9 +10,13 @@ module.exports = function(grunt) {
   grunt.loadTasks('grunt-tasks');
 
   // Default task(s).
+
   // A very basic default task.
-  grunt.registerTask('default', 'Log some stuff.', function() {
-    grunt.log.write('Grunt is working! ').ok();
-  });
+  // grunt.registerTask('default', 'Log some stuff.', function() {
+  //   grunt.log.write('Grunt is working! ').ok();
+  // });
+
+  grunt.registerTask('default', ['build', 'connect', 'watch']);
+  grunt.registerTask('build', ['clean:patternlab', 'shell:patternlab', 'clean:patternlab-source', 'sass', 'copy:patternlab-source', 'shell:patternlab', 'copy:patternlab-public']);
 
 };
