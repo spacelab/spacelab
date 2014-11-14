@@ -16,7 +16,7 @@ module.exports = function(grunt) {
   //   grunt.log.write('Grunt is working! ').ok();
   // });
 
-  grunt.registerTask('default', ['connect', 'watch']);
+  grunt.registerTask('default', ['build', 'connect', 'watch']);
   grunt.registerTask('build', ['shell:patternlab']);
 
 };
