@@ -2,13 +2,11 @@ module.exports = function(grunt) {
   'use strict';
 
   grunt.config('watch', {
-    patternlab: {
+    sass: {
       files: [
-        'patternlab/source/_patterns/**/*.mustache',
-        'patternlab/source/_patterns/**/*.json',
-        'patternlab/source/_data/*.json',
+        'source/**/*.scss'
       ],
-      tasks: [ 'shell:patternlab' ],
+      tasks: ['sass'],
       options: {
         spawn: false,
         livereload: true

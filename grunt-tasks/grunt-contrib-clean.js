@@ -2,21 +2,10 @@ module.exports = function(grunt) {
   'use strict';
 
   grunt.config('clean', {
-    patternlab: {
+    build: {
       files: [
         {
-          expand: true,
-          cwd: 'patternlab',
-          src: ['config/config.ini', 'source/*', '!source/README', 'public/*', '!public/README']
-        }
-      ],
-    },
-    'patternlab-source': {
-      files: [
-        {
-          expand: true,
-          cwd: 'patternlab',
-          src: ['source/*', '!source/README']
+          src: ['build']
         }
       ],
     }

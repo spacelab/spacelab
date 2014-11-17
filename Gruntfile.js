@@ -17,6 +17,5 @@ module.exports = function(grunt) {
   // });
 
   grunt.registerTask('default', ['build', 'connect', 'watch']);
-  grunt.registerTask('build', ['clean:patternlab', 'shell:patternlab', 'clean:patternlab-source', 'sass', 'copy:patternlab-source', 'shell:patternlab', 'copy:patternlab-public']);
-
+  grunt.registerTask('build', ['clean', 'sass']);
 };
