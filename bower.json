@@ -1,6 +1,6 @@
 {
   "name": "spacelab",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "https://github.com/comspace-dev/spacelab",
   "authors": [
     "Axel Salder",
@@ -20,15 +20,32 @@
     "tests"
   ],
   "dependencies": {
-    "spacelab-base.headings": "spacelab/base.headings",
     "normalize.css": "~3.0.2",
-    "spacelab-base.border-box": "spacelab/base.border-box",
-    "spacelab-base.links": "spacelab/base.links",
-    "spacelab-base.media": "spacelab/base.media",
+
+    "spacelab-settings.defaults": "spacelab/settings.defaults",
+
+    "spacelab-functions.rem": "spacelab/functions.rem",
+
     "spacelab-mixins.breakpoint": "spacelab/mixins.breakpoint",
-    "spacelab-objects.spacing": "spacelab/objects.spacing",
+    "spacelab-mixins.font-size": "spacelab/mixins.font-size",
+
+    "spacelab-base.border-box": "spacelab/base.border-box",
+    "spacelab-base.document": "spacelab/base.document",
+    "spacelab-base.headings": "spacelab/base.headings",
+    "spacelab-base.links": "spacelab/base.links",
+    "spacelab-base.lists": "spacelab/base.lists",
+    "spacelab-base.media": "spacelab/base.media",
+    "spacelab-base.paragraphs": "spacelab/base.paragraphs",
+    "spacelab-base.root": "spacelab/base.root",
+
+    "spacelab-objects.block": "spacelab/objects.block",
+    "spacelab-objects.clearfix": "spacelab/objects.clearfix",
+    "spacelab-objects.flag": "spacelab/objects.flag",
+    "spacelab-objects.list-bare": "spacelab/objects.list-bare",
+    "spacelab-objects.list-inline": "spacelab/objects.list-inline",
     "spacelab-objects.media": "spacelab/objects.media",
-    "spacelab-specials.print": "spacelab/specials.print",
-    "spacelab-objects.clearfix": "spacelab/objects.clearfix"
+    "spacelab-objects.spacing": "spacelab/objects.spacing",
+
+    "spacelab-specials.print": "spacelab/specials.print"
   }
 }
