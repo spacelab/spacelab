@@ -13,6 +13,16 @@ module.exports = function(grunt) {
         spawn: false,
         livereload: true
       }
+    },
+    sass: {
+      files: [
+        'source/**/*.scss'
+      ],
+      tasks: ['sass'],
+      options: {
+        spawn: false,
+        livereload: true
+      }
     }
   });
 
