@@ -17,5 +17,5 @@ module.exports = function(grunt) {
   // });
 
   grunt.registerTask('default', ['build', 'connect', 'watch']);
-  grunt.registerTask('build', ['clean', 'copy', 'sass']);
+  grunt.registerTask('build', ['clean', 'assemble', 'copy', 'sass', 'autoprefixer']);
 };
