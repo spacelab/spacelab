@@ -1,17 +1,17 @@
 // settings
+@import "settings";
+
 @import "bower_components/spacelab-settings.defaults/settings.defaults";
-@import "settings/settings.imports";
 
 // functions
 @import "bower_components/spacelab-functions.rem/functions.rem";
-@import "functions/functions.imports";
 
 // mixins
 @import "bower_components/spacelab-mixins.breakpoint/mixins.breakpoint";
 @import "bower_components/spacelab-mixins.font-size/mixins.font-size";
-@import "mixins/mixins.imports";
 
 // base
+@import "bower_components/normalize.css/normalize";
 @import "bower_components/spacelab-base.border-box/base.border-box";
 
 @import "bower_components/spacelab-base.root/base.root";
@@ -24,21 +24,22 @@
 @import "bower_components/spacelab-base.headings/base.headings";
 @import "bower_components/spacelab-base.paragraphs/base.paragraphs";
 
-@import "base/base.imports";
+@import "base";
 
 // objects
-// @import "bower_components/spacelab-objects.block/objects.block";
-// @import "bower_components/spacelab-objects.clearfix/objects.clearfix";
-// @import "bower_components/spacelab-objects.flag/objects.flag";
-// @import "bower_components/spacelab-objects.list-bare/objects.list-bare";
-// @import "bower_components/spacelab-objects.list-inline/objects.list-inline";
-// @import "bower_components/spacelab-objects.media/objects.media";
-// @import "bower_components/spacelab-objects.spacing/objects.spacing";
-@import "objects/objects.imports";
+@import "bower_components/spacelab-objects.block/objects.block";
+@import "bower_components/spacelab-objects.clearfix/objects.clearfix";
+@import "bower_components/spacelab-objects.flag/objects.flag";
+@import "bower_components/spacelab-objects.list-bare/objects.list-bare";
+@import "bower_components/spacelab-objects.list-inline/objects.list-inline";
+@import "bower_components/spacelab-objects.media/objects.media";
+@import "bower_components/spacelab-objects.spacing/objects.spacing";
+
+// layouts
+@import "layouts";
 
 // modules
-@import "modules/modules.imports";
+@import "modules";
 
 // specials
-// @import "bower_components/spacelab-specials.print/specials.print";
-@import "specials/specials.imports";
+@import "bower_components/spacelab-specials.print/specials.print";
