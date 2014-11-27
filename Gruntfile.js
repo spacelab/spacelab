@@ -8,14 +8,14 @@ module.exports = function(grunt) {
 
   // Load tasks
   grunt.loadTasks('grunt-tasks');
+  grunt.loadNpmTasks('grunt-newer');
 
   // Default task(s).
-
-  // A very basic default task.
-  // grunt.registerTask('default', 'Log some stuff.', function() {
-  //   grunt.log.write('Grunt is working! ').ok();
-  // });
-
   grunt.registerTask('default', ['build', 'connect', 'watch']);
-  grunt.registerTask('build', ['clean', 'assemble', 'copy', 'sass', 'autoprefixer']);
+
+  grunt.registerTask('prepare', ['clean', 'imagemin', 'copy', 'grunticon']);
+  grunt.registerTask('html', ['assemble']);
+  grunt.registerTask('css', ['sass', 'autoprefixer']);
+
+  grunt.registerTask('build', ['prepare', 'html', 'css']);
 };
