@@ -2,24 +2,24 @@ module.exports = function(grunt) {
   'use strict';
 
   grunt.config('watch', {
-    assemble: {
+    html: {
       files: [
         'source/partials/**/*.hbs',
-        'source/layouts/default.hbs',
+        'source/layouts/**/*.hbs',
         'source/data/**/*.{json,yml}',
-        'source/pages/*.hbs'
+        'source/pages/**/*.hbs'
       ],
-      tasks: ['assemble'],
+      tasks: ['html'],
       options: {
         spawn: false,
         livereload: true
       }
     },
-    sass: {
+    css: {
       files: [
         'source/**/*.scss'
       ],
-      tasks: ['sass', 'autoprefixer'],
+      tasks: ['css'],
       options: {
         spawn: false,
         livereload: true
