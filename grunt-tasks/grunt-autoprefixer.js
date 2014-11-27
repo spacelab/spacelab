@@ -3,7 +3,7 @@ module.exports = function (grunt) {
 
   grunt.config('autoprefixer', {
     options: {
-      browsers: ['last 2 version', 'Explorer >= 9', 'Firefox >= 15']
+      browsers: ['last 2 version']
     },
     build: {
       files: [
