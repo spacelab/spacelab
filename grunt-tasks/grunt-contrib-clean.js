@@ -5,7 +5,7 @@ module.exports = function(grunt) {
     build: {
       files: [
         {
-          src: ['build']
+          src: ['build', 'temp']
         }
       ],
     }
