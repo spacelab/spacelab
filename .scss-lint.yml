@@ -1,51 +1,20 @@
 # Default application configuration that all configurations inherit from.
+scss_files: "**/*.scss"
+
 linters:
+  BangFormat:
+    enabled: true
+    space_before_bang: true
+    space_after_bang: false
+
   BorderZero:
     enabled: true
-
-  CapitalizationInSelector:
-    enabled: true
-    ignored_names:
-      - royalSlider
-      - rsArrow
-      - rsArrowIcn
-      - rsArrowLeft
-      - rsArrowRight
-      - rsBtnCenterer
-      - rsCaption
-      - rsContent
-      - rsHor
-      - rsImg
-      - rsNav
-      - rsNavSelected
-      - rsOverflow
-      - rsPlayBtn
-      - rsPlayBtnIcon
-      - rsSlide
-      - rsTab
-      - rsTabs
-      - rsThumb
-      - rsThumbs
-      - rsThumbsArrow
-      - rsThumbsArrowDisabled
-      - rsThumbsArrowIcn
-      - rsThumbsArrowLeft
-      - rsThumbsArrowRight
-      - rsThumbsContainer
-      - rsThumbsHor
-      - rsThumbsVer
-      - rsTmb
-      - rsVideoContainer
-      - rsVideoFrameHolder
-      - rsWithThumbsHor
-      - rsWithThumbsVer
-
 
   ColorKeyword:
     enabled: true
 
   Comment:
-    enabled: false # needs to be false for cssjanus annotations
+    enabled: true
 
   DebugStatement:
     enabled: true
@@ -82,8 +51,13 @@ linters:
   HexValidation:
     enabled: true
 
-  IdWithExtraneousSelector:
+  IdSelector:
     enabled: true
+
+  ImportPath:
+    enabled: true
+    leading_underscore: false
+    filename_extension: false
 
   Indentation:
     enabled: true
@@ -100,7 +74,12 @@ linters:
 
   NameFormat:
     enabled: true
+    allow_leading_underscore: true
     convention: BEM # or 'hyphenated_lowercase', or a regex pattern
+
+  NestingDepth:
+    enabled: true
+    max_depth: 3
 
   PlaceholderInExtend:
     enabled: true
@@ -225,9 +204,19 @@ linters:
     enabled: true
     extra_properties: []
 
+  QualifyingElement:
+    enabled: true
+    allow_element_with_attribute: false
+    allow_element_with_class: false
+    allow_element_with_id: false
+
   SelectorDepth:
     enabled: true
-    max_depth: 5
+    max_depth: 3
+
+  SelectorFormat:
+    enabled: true
+    convention: BEM # or 'hyphenated_lowercase', or 'snake_case', or 'camel_case', or a regex pattern
 
   Shorthand:
     enabled: true
@@ -251,6 +240,7 @@ linters:
 
   SpaceBeforeBrace:
     enabled: true
+    style: space
     allow_single_line_padding: false
 
   SpaceBetweenParens:
@@ -264,6 +254,9 @@ linters:
   TrailingSemicolon:
     enabled: true
 
+  TrailingZero:
+    enabled: false
+
   UnnecessaryMantissa:
     enabled: true
 
@@ -275,6 +268,12 @@ linters:
 
   UrlQuotes:
     enabled: true
+
+  VendorPrefixes:
+    enabled: true
+    identifier_list: base
+    include: []
+    exclude: []
 
   ZeroUnit:
     enabled: true
