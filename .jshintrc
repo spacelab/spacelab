@@ -1,0 +1,23 @@
+{
+  // Enforcing options
+  "camelcase": true,
+  "curly": true,
+  "eqeqeq": true,
+  "immed": true,
+  "indent": 2,
+  "latedef": true,
+  "newcap": true,
+  "noempty": true,
+  "nonbsp": true,
+  "nonew": true,
+  "quotmark": "single",
+  "undef": true,
+  "unused": true,
+  "strict": true,
+
+  // Environments
+  "devel": true,
+  "browser": true,
+  "jquery": true,
+  "predef": ["module"]
+}
