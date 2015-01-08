@@ -216,7 +216,42 @@ linters:
 
   SelectorFormat:
     enabled: true
-    convention: BEM # or 'hyphenated_lowercase', or 'snake_case', or 'camel_case', or a regex pattern
+    convention: hyphenated_BEM # or BEM, or 'hyphenated_lowercase', or 'snake_case', or 'camel_case', or a regex pattern
+    ignored_names:
+      - royalSlider
+      - rsArrow
+      - rsArrowIcn
+      - rsArrowLeft
+      - rsArrowRight
+      - rsBtnCenterer
+      - rsCaption
+      - rsContent
+      - rsGCaption
+      - rsHor
+      - rsImg
+      - rsNav
+      - rsNavSelected
+      - rsOverflow
+      - rsPlayBtn
+      - rsPlayBtnIcon
+      - rsSlide
+      - rsTab
+      - rsTabs
+      - rsThumb
+      - rsThumbs
+      - rsThumbsArrow
+      - rsThumbsArrowDisabled
+      - rsThumbsArrowIcn
+      - rsThumbsArrowLeft
+      - rsThumbsArrowRight
+      - rsThumbsContainer
+      - rsThumbsHor
+      - rsThumbsVer
+      - rsTmb
+      - rsVideoContainer
+      - rsVideoFrameHolder
+      - rsWithThumbsHor
+      - rsWithThumbsVer
 
   Shorthand:
     enabled: true
