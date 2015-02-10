@@ -5,7 +5,7 @@ module.exports = function(grunt) {
     icons: {
       options: {
         cssprefix: '%icon-',
-        datasvgcss: '../../source/css/base/_icons.scss'
+        datasvgcss: '../../source/css/icons/_icons.scss',
       },
       files: [{
         expand: true,
