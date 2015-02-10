@@ -21,6 +21,6 @@ The following grunt tasks are available:
 * `grunt css` Builds css files only
 * `grunt js` Builds js files only
 * `grunt build` Builds everything
-* `grunt run` Spawns a connect server and runs watcher
+* `grunt run` Spawns a [local server](http://localhost:3000) and runs watcher
 * `grunt` The default task combines `build` and `run`
 * `grunt deploy` FTP Deployment. You need to configure your host and authorization file first.
