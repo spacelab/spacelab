@@ -2,15 +2,25 @@ module.exports = function (grunt) {
   'use strict';
 
   grunt.config('imagemin', {
-    dist: {
+    images: {
       files: [
         {
           expand: true,
           cwd: 'source/',
-          src: ['**/*.{png,jpg,gif,svg}'],
-          dest: 'temp/'
+          src: ['**/*.{png,jpg,gif}', 'media/svg/**/*.svg'],
+          dest: 'build'
         }
         ]
+    },
+    svg: {
+      files: [
+        {
+          expand: true,
+          cwd: 'source/',
+          src: ['**/*.svg'],
+          dest: 'temp'
+        }
+      ]
     }
   });
 
