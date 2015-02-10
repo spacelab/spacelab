@@ -1,7 +1,7 @@
 spacelab
 ========
 
-## Dependencies
+## Dependencies & Installation
 
 * ruby
 * node / npm
@@ -12,3 +12,15 @@ spacelab
 To install run `npm i && bower i -f`
 
 The `-f` flag is currently required for the other spacelab sources.
+
+## Usage
+
+The following grunt tasks are available:
+
+* `grunt html` Builds html files only
+* `grunt css` Builds css files only
+* `grunt js` Builds js files only
+* `grunt build` Builds everything
+* `grunt run` Spawns a connect server and runs watcher
+* `grunt` The default task combines `build` and `run`
+* `grunt deploy` FTP Deployment. You need to configure your host and authorization file first.
