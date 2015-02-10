@@ -4,7 +4,7 @@ module.exports = function(grunt) {
   grunt.config('copy', {
     normalize: {
       src: 'bower_components/normalize.css/normalize.css',
-      dest: 'bower_components/normalize.css/_normalize.scss',
+      dest: 'bower_components/normalize.css/_normalize.scss'
     }
   });
 
