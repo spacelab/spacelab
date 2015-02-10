@@ -19,7 +19,30 @@ module.exports = function(grunt) {
       files: [
         'source/**/*.scss'
       ],
-      tasks: ['css'],
+      tasks: ['css', 'html'],
+      options: {
+        spawn: false,
+        livereload: true
+      }
+    },
+    js: {
+      files: [
+        'source/**/*.js'
+      ],
+      tasks: ['js', 'html'],
+      options: {
+        spawn: false,
+        livereload: true
+      }
+    },
+    media: {
+      files: [
+        'source/media/**/*.jpg',
+        'source/media/**/*.png',
+        'source/media/**/*.gif',
+        'source/media/**/*.svg'
+      ],
+      tasks: ['newer:imagemin'],
       options: {
         spawn: false,
         livereload: true
