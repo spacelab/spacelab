@@ -8,12 +8,11 @@ module.exports = function (grunt) {
     },
     build: {
       src: [
-        'source/js/vendor/**/*.js',
         'source/js/modules/**/*.js',
 
         'source/js/script.js'
       ],
-      dest: '<%= buildDir %>/js/script.js'
+      dest: 'build/js/script.js'
     }
   });
 

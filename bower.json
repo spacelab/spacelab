@@ -21,14 +21,10 @@
   ],
   "dependencies": {
     "normalize.css": "~3.0.2",
-
     "spacelab-settings.defaults": "spacelab/settings.defaults",
-
     "spacelab-functions.rem": "spacelab/functions.rem",
-
     "spacelab-mixins.breakpoint": "spacelab/mixins.breakpoint",
     "spacelab-mixins.font-size": "spacelab/mixins.font-size",
-
     "spacelab-base.border-box": "spacelab/base.border-box",
     "spacelab-base.document": "spacelab/base.document",
     "spacelab-base.headings": "spacelab/base.headings",
@@ -37,7 +33,6 @@
     "spacelab-base.media": "spacelab/base.media",
     "spacelab-base.paragraphs": "spacelab/base.paragraphs",
     "spacelab-base.root": "spacelab/base.root",
-
     "spacelab-objects.block": "spacelab/objects.block",
     "spacelab-objects.clearfix": "spacelab/objects.clearfix",
     "spacelab-objects.flag": "spacelab/objects.flag",
@@ -45,7 +40,7 @@
     "spacelab-objects.list-inline": "spacelab/objects.list-inline",
     "spacelab-objects.media": "spacelab/objects.media",
     "spacelab-objects.spacing": "spacelab/objects.spacing",
-
-    "spacelab-specials.print": "spacelab/specials.print"
+    "spacelab-specials.print": "spacelab/specials.print",
+    "modernizr": "~2.8.3"
   }
 }
