@@ -13,9 +13,14 @@ module.exports = function(grunt) {
   // Default task(s).
   grunt.registerTask('default', ['build', 'connect', 'watch']);
 
-  grunt.registerTask('prepare', ['clean', 'imagemin', 'copy', 'grunticon']);
+  grunt.registerTask('prepare', ['clean', 'newer:imagemin', 'copy', 'grunticon']);
   grunt.registerTask('html', ['assemble']);
   grunt.registerTask('css', ['sass', 'autoprefixer']);
+  grunt.registerTask('js', ['modernizr', 'uglify']);
 
-  grunt.registerTask('build', ['prepare', 'html', 'css']);
+  grunt.registerTask('build', ['prepare', 'css', 'js', 'html']);
+
+  grunt.registerTask('run', ['connect', 'watch']);
+
+  grunt.registerTask('deploy', ['ftp-deploy']);
 };
