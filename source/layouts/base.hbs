@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{{ title }}</title>
+  {{#if keywords }}<meta name="keywords" content="{{ keywords }}">{{/if }}
+  {{#if description }}<meta name="description" content="{{ description }}">{{/if }}
+
+  <link rel="stylesheet" href="css/style.css?{{ fileHash './build/css/style.css' 10 }}">
+  <script src="js/modernizr.js?{{ fileHash './build/js/modernizr.js' 10 }}"></script>
+</head>
+<body>
+
+  {{> body }}
+
+  <script src="js/script.js?{{ fileHash './build/js/script.js' 10 }}"></script>
+
+</body>
+</html>
