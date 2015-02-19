@@ -9,7 +9,7 @@ module.exports = function (grunt) {
       files: [
         {
           expand: true,
-          cwd: 'dist/',
+          cwd: 'build/',
           src: ['**/*.css'],
           dest: 'build/',
           ext: '.css',
