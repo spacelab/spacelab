@@ -1,40 +1,40 @@
 // settings
 @import "settings";
 
-@import "bower_components/spacelab-settings.defaults/settings.defaults";
+@import "../../bower_components/spacelab-settings.defaults/settings.defaults";
 
 // functions
-@import "bower_components/spacelab-functions.rem/functions.rem";
+@import "../../bower_components/spacelab-functions.rem/functions.rem";
 
 // mixins
-@import "bower_components/spacelab-mixins.breakpoint/mixins.breakpoint";
-@import "bower_components/spacelab-mixins.font-size/mixins.font-size";
+@import "../../bower_components/spacelab-mixins.breakpoint/mixins.breakpoint";
+@import "../../bower_components/spacelab-mixins.font-size/mixins.font-size";
 
 // base
-@import "bower_components/normalize.css/normalize";
-@import "bower_components/spacelab-base.border-box/base.border-box";
+@import "../../bower_components/normalize.css/normalize";
+@import "../../bower_components/spacelab-base.border-box/base.border-box";
 
-@import "bower_components/spacelab-base.root/base.root";
-@import "bower_components/spacelab-base.document/base.document";
+@import "../../bower_components/spacelab-base.root/base.root";
+@import "../../bower_components/spacelab-base.document/base.document";
 
-@import "bower_components/spacelab-base.links/base.links";
-@import "bower_components/spacelab-base.lists/base.lists";
-@import "bower_components/spacelab-base.media/base.media";
+@import "../../bower_components/spacelab-base.links/base.links";
+@import "../../bower_components/spacelab-base.lists/base.lists";
+@import "../../bower_components/spacelab-base.media/base.media";
 
-@import "bower_components/spacelab-base.headings/base.headings";
-@import "bower_components/spacelab-base.paragraphs/base.paragraphs";
+@import "../../bower_components/spacelab-base.headings/base.headings";
+@import "../../bower_components/spacelab-base.paragraphs/base.paragraphs";
 
 @import "icons/icons";
 @import "base";
 
 // objects
-@import "bower_components/spacelab-objects.block/objects.block";
-@import "bower_components/spacelab-objects.clearfix/objects.clearfix";
-@import "bower_components/spacelab-objects.flag/objects.flag";
-@import "bower_components/spacelab-objects.list-bare/objects.list-bare";
-@import "bower_components/spacelab-objects.list-inline/objects.list-inline";
-@import "bower_components/spacelab-objects.media/objects.media";
-@import "bower_components/spacelab-objects.spacing/objects.spacing";
+@import "../../bower_components/spacelab-objects.block/objects.block";
+@import "../../bower_components/spacelab-objects.clearfix/objects.clearfix";
+@import "../../bower_components/spacelab-objects.flag/objects.flag";
+@import "../../bower_components/spacelab-objects.list-bare/objects.list-bare";
+@import "../../bower_components/spacelab-objects.list-inline/objects.list-inline";
+@import "../../bower_components/spacelab-objects.media/objects.media";
+@import "../../bower_components/spacelab-objects.spacing/objects.spacing";
 
 // layouts
 @import "layouts";
@@ -43,4 +43,4 @@
 @import "modules";
 
 // specials
-@import "bower_components/spacelab-specials.print/specials.print";
+@import "../../bower_components/spacelab-specials.print/specials.print";
