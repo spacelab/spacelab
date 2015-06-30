@@ -1,11 +1,11 @@
+// functions
+@import "../../bower_components/spacelab-functions.strip-unit/functions.strip-unit";
+@import "../../bower_components/spacelab-functions.em/functions.em";
+@import "../../bower_components/spacelab-functions.rem/functions.rem";
+
 // settings
 @import "settings";
-
 @import "../../bower_components/spacelab-settings.defaults/settings.defaults";
-
-// functions
-@import "../../bower_components/spacelab-functions.rem/functions.rem";
-@import "../../bower_components/spacelab-functions.strip-unit/functions.strip-unit";
 
 // mixins
 @import "../../bower_components/spacelab-mixins.breakpoint/mixins.breakpoint";

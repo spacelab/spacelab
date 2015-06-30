@@ -20,8 +20,9 @@
     "tests"
   ],
   "dependencies": {
-    "normalize.css": "~3.0.2",
+    "normalize.css": "3.0.3",
     "spacelab-settings.defaults": "spacelab/settings.defaults",
+    "spacelab-functions.em": "spacelab/functions.em",
     "spacelab-functions.rem": "spacelab/functions.rem",
     "spacelab-functions.strip-unit": "spacelab/functions.strip-unit",
     "spacelab-mixins.breakpoint": "spacelab/mixins.breakpoint",
@@ -42,6 +43,6 @@
     "spacelab-objects.media": "spacelab/objects.media",
     "spacelab-objects.spacing": "spacelab/objects.spacing",
     "spacelab-specials.print": "spacelab/specials.print",
-    "modernizr": "~2.8.3"
+    "modernizr": "2.8.3"
   }
 }
