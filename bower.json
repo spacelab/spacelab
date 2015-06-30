@@ -23,6 +23,7 @@
     "normalize.css": "~3.0.2",
     "spacelab-settings.defaults": "spacelab/settings.defaults",
     "spacelab-functions.rem": "spacelab/functions.rem",
+    "spacelab-functions.strip-unit": "spacelab/functions.strip-unit",
     "spacelab-mixins.breakpoint": "spacelab/mixins.breakpoint",
     "spacelab-mixins.font-size": "spacelab/mixins.font-size",
     "spacelab-base.border-box": "spacelab/base.border-box",
