@@ -4,9 +4,9 @@ module.exports = function(grunt) {
   grunt.config('modernizr', {
     dist: {
       devFile: 'bower_components/modernizr/modernizr.js',
-      outputFile: 'build/js/modernizr.js',
+      outputFile: 'bower_components/modernizr/modernizr-custom.js',
       files: {
-        src: ['source/**/*.js', 'source/**/*.scss']
+        src: ['source/**/*.{scss,js}']
       }
     }
   });
