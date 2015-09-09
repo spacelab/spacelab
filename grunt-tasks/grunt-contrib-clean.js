@@ -3,11 +3,12 @@ module.exports = function(grunt) {
 
   grunt.config('clean', {
     build: {
-      files: [
-        {
-          src: ['build', 'temp']
-        }
-      ],
+      src: [
+        'bower_components/normalize.css/_normalize.scss',
+        'build',
+        'cms',
+        'temp'
+      ]
     }
   });
 
