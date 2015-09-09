@@ -2,6 +2,6 @@
 
   'use strict';
 
-  console.log('js module has been imported');
+  console.log('js module loaded');
 
 }());
