@@ -19,7 +19,7 @@ module.exports = function(grunt) {
       files: [
         'source/**/*.scss'
       ],
-      tasks: ['css', 'html'],
+      tasks: ['css'],
       options: {
         spawn: false,
         livereload: true
@@ -29,7 +29,17 @@ module.exports = function(grunt) {
       files: [
         'source/**/*.js'
       ],
-      tasks: ['js', 'html'],
+      tasks: ['js'],
+      options: {
+        spawn: false,
+        livereload: true
+      }
+    },
+    icons: {
+      files: [
+        'source/css/icons/**/*.svg'
+      ],
+      tasks: ['newer:imagemin', 'grunticon'],
       options: {
         spawn: false,
         livereload: true
@@ -37,10 +47,7 @@ module.exports = function(grunt) {
     },
     media: {
       files: [
-        'source/media/**/*.jpg',
-        'source/media/**/*.png',
-        'source/media/**/*.gif',
-        'source/media/**/*.svg'
+        'source/media/**/*.{jpg,png,gif,svg}'
       ],
       tasks: ['newer:imagemin'],
       options: {

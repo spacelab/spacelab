@@ -3,7 +3,11 @@ module.exports = function(grunt) {
 
   // Project configuration.
   grunt.initConfig({
-    pkg: grunt.file.readJSON('package.json')
+    pkg: grunt.file.readJSON('package.json'),
+    banner: '/*! <%= pkg.title || pkg.name %> - v<%= pkg.version + "\\n" %>' +
+             '* <%= grunt.template.today() + "\\n" %>' +
+             '* <%= pkg.homepage + "\\n" %>' +
+             '* Copyright (c) <%= grunt.template.today("yyyy") %> - <%= pkg.author %> */ <%= "\\n" %>'
   });
 
   // Load tasks
@@ -13,12 +17,15 @@ module.exports = function(grunt) {
   // Default task(s).
   grunt.registerTask('default', ['build', 'connect', 'watch']);
 
-  grunt.registerTask('prepare', ['clean', 'newer:imagemin', 'copy', 'grunticon']);
+  grunt.registerTask('prepare', ['clean', 'imagemin', 'copy', 'grunticon']);
   grunt.registerTask('html', ['assemble']);
   grunt.registerTask('css', ['sass', 'autoprefixer']);
-  grunt.registerTask('js', ['modernizr', 'uglify']);
+  grunt.registerTask('js', ['modernizr', 'uglify:concat']);
+  grunt.registerTask('minify', ['htmlmin', 'cssmin', 'uglify:minify']);
+
 
   grunt.registerTask('build', ['prepare', 'css', 'js', 'html']);
+  grunt.registerTask('cms', ['build', 'minify', 'concat']);
 
   grunt.registerTask('run', ['connect', 'watch']);
 
