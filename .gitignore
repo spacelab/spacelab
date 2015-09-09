@@ -36,3 +36,4 @@ bower_components
 # Sass
 .sass-cache
 *.css.map
+.DS_Store
