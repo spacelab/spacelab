@@ -1,17 +1,19 @@
 {
   "name": "spacelab",
-  "version": "0.2.0",
+  "version": "0.3.0",
+  "description": "Base project and framework used at comspace",
   "homepage": "https://github.com/comspace-dev/spacelab",
+  "private": true,
+  "keywords": [
+    "frontend",
+    "sass",
+    "grunt"
+  ],
   "authors": [
     "Axel Salder",
     "Daniel Blomeyer"
   ],
-  "description": "here be a description",
-  "keywords": [
-    "spacelab"
-  ],
   "license": "MIT",
-  "private": true,
   "ignore": [
     "**/.*",
     "node_modules",
