@@ -15,7 +15,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-newer');
 
   // Default task(s).
-  grunt.registerTask('default', ['build', 'connect', 'watch']);
+  grunt.registerTask('default', ['build', 'run']);
 
   grunt.registerTask('prepare', ['clean', 'imagemin', 'copy', 'grunticon']);
   grunt.registerTask('html', ['assemble']);
