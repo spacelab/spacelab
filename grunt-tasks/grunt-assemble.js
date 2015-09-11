@@ -17,5 +17,5 @@ module.exports = function(grunt) {
     }
   });
 
-  grunt.loadNpmTasks('assemble');
+  grunt.loadNpmTasks('grunt-assemble');
 };
