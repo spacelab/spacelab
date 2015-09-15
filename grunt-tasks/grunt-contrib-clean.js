@@ -4,7 +4,7 @@ module.exports = function(grunt) {
   grunt.config('clean', {
     build: {
       src: [
-        'bower_components/normalize.css/_normalize.scss',
+        'node_modules/normalize.css/_normalize.scss',
         'build',
         'cms',
         'temp'
