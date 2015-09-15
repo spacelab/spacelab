@@ -17,7 +17,7 @@ module.exports = function(grunt) {
   // Default task(s).
   grunt.registerTask('default', ['build', 'run']);
 
-  grunt.registerTask('prepare', ['clean', 'imagemin', 'copy', 'grunticon']);
+  grunt.registerTask('prepare', ['clean', 'imagemin', 'grunticon']);
   grunt.registerTask('html', ['assemble']);
   grunt.registerTask('css', ['sass', 'autoprefixer']);
   grunt.registerTask('js', ['uglify:concat']);

@@ -4,7 +4,6 @@ module.exports = function(grunt) {
   grunt.config('clean', {
     build: {
       src: [
-        'node_modules/normalize.css/_normalize.scss',
         'build',
         'cms',
         'temp'
