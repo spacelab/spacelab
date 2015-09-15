@@ -37,3 +37,4 @@ bower_components
 .sass-cache
 *.css.map
 .DS_Store
+spacelab.sublime-workspace
