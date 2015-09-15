@@ -1,4 +1,4 @@
-spacelab
+spacelab v0.4.0
 ========
 
 ## Dependencies & Installation
