@@ -20,7 +20,7 @@ module.exports = function(grunt) {
   grunt.registerTask('prepare', ['clean', 'imagemin', 'copy', 'grunticon']);
   grunt.registerTask('html', ['assemble']);
   grunt.registerTask('css', ['sass', 'autoprefixer']);
-  grunt.registerTask('js', ['modernizr', 'uglify:concat']);
+  grunt.registerTask('js', ['uglify:concat']);
   grunt.registerTask('minify', ['htmlmin', 'cssmin', 'uglify:minify']);
 
 

@@ -35,7 +35,6 @@
     "grunt-contrib-watch": "0.6.1",
     "grunt-ftp-deploy": "0.1.10",
     "grunt-grunticon": "2.2.2",
-    "grunt-modernizr": "0.6.0",
     "grunt-newer": "1.1.1",
     "handlebars-helper-filehash": "1.0.0",
     "handlebars-helper-partial": "0.1.3",

@@ -9,8 +9,6 @@ module.exports = function (grunt) {
         beautify: true
       },
       src: [
-        // 'bower_components/modernizr/modernizr-custom.js',
-
         'source/js/libs/**/*.js',
         'source/js/vendor/**/*.js',
         'source/js/modules/**/*.js',

@@ -44,7 +44,6 @@
     "spacelab-objects.list-inline": "spacelab/objects.list-inline",
     "spacelab-objects.media": "spacelab/objects.media",
     "spacelab-objects.spacing": "spacelab/objects.spacing",
-    "spacelab-specials.print": "spacelab/specials.print",
-    "modernizr": "2.8.3"
+    "spacelab-specials.print": "spacelab/specials.print"
   }
 }
