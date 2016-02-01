@@ -23,7 +23,7 @@ module.exports = function (grunt) {
         /\.top+/,
         /\.bottom+/,
         /\.left+/,
-        /\.righ+/,
+        /\.right+/,
       ]
     },
     build: {
