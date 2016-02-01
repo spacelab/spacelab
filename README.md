@@ -1,20 +1,18 @@
-spacelab v0.4.0
+spacelab v1.0.0
 ========
 
 ## Dependencies & Installation
 
 * node / npm
-* Bower 1.3 `npm install bower -g`
 * Grunt 0.4.5 `npm install grunt-cli -g`
 
-To install run `npm i && bower i`
+To install run `npm i`
 
 ### Tested on a Mac running
 
-* OS X Yosemite 10.10.5 (14F27)
-* node 0.12.7
-* npm 2.14.1
-* bower 1.5.2
+* OS X Yosemite 10.11.3
+* node 5.5.0
+* npm 3.5.3
 * grunt-cli 0.1.13
 * grunt 0.4.5
 

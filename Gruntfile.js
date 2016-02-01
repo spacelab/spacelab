@@ -20,14 +20,14 @@ module.exports = function(grunt) {
   // Default task(s).
   grunt.registerTask('default', ['build', 'run']);
 
-  grunt.registerTask('prepare', ['clean', 'imagemin', 'grunticon']);
-  grunt.registerTask('html', ['assemble']);
-  grunt.registerTask('css', ['sass', 'autoprefixer']);
+  grunt.registerTask('prepare', ['clean', 'copy', 'imagemin', 'grunticon']);
+  grunt.registerTask('html', ['assemble', 'bootlint']);
+  grunt.registerTask('css', ['sass', 'uncss', 'autoprefixer']);
   grunt.registerTask('js', ['uglify:concat']);
   grunt.registerTask('minify', ['htmlmin', 'cssmin', 'uglify:minify']);
 
 
-  grunt.registerTask('build', ['prepare', 'css', 'js', 'html']);
+  grunt.registerTask('build', ['prepare', 'html', 'css', 'js']);
   grunt.registerTask('cms', ['build', 'minify', 'concat']);
 
   grunt.registerTask('run', ['connect', 'watch']);

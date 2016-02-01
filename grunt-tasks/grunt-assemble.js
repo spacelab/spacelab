@@ -9,7 +9,7 @@ module.exports = function(grunt) {
       layout: 'default.hbs',
       data: ['source/data/**/*.{json,yml}'],
       includes: ['source/includes/**/*.*'],
-      helpers: ['handlebars-helper-filehash', 'handlebars-helper-partial', 'source/helper/**/*.js']
+      helpers: ['source/helper/**/*.js']
     },
     pages: {
       src: 'source/pages/**/*.hbs',
