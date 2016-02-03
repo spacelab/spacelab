@@ -1,9 +1,7 @@
 @import "variables";
-@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
-@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/theme";
+@import "node_modules/bootstrap/scss/bootstrap";
 
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
-  padding-top: 50px;
-  padding-bottom: 20px;
+  padding-bottom: 2rem;
 }
